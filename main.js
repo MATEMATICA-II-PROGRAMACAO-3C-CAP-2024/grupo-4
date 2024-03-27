@@ -15,6 +15,11 @@ function atualizaCronometro() {
         contadores[i].textContent = calculaTempo(tempos[i]);
     }
 }
+function comecaCronometro(){
+atualizaCronometro();
+setInterval(atualizaCronometro, 1000);
+}
+comecaCronometro();
 
 
 
@@ -34,6 +39,8 @@ function calculaTempo(tempoObjetivo) {
     let tempoFinal = tempoObjetivo - tempoAtual;
     let segundos = Math.floor(tempoFinal / 1000);
     let minutos = Math.floor(segundos/60);
+    let horas = Math.floor(minuto/60);
+    let dias = Math.floor (horas/24);
     
     return segundos;
 
@@ -45,6 +52,8 @@ function calculaTempo(tempoObjetivo) {
     minutos %= 60;
     horas %= 24;
 
+if (tempoFinal > 0){
     return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
-    
-
+} else {
+    return "Prazo Finalizado";
+    }  
