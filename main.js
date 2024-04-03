@@ -57,3 +57,13 @@ if (tempoFinal > 0){
 } else {
     return "Prazo Finalizado";
     }  
+    let dias = Math.floor(horas / 24);
+    for (let i=0; i<contadores.length;i++){
+     // contadores[i].textContent = calculaTempo(tempos[i]);
+    }
+    if (tempoFinal > 0){
+        return dias + "dias " + "horas + " "horas " + "minutos + "minutos" + segundos +  "segundos";
+        } else {
+        return [0,0,0,0];
+        }
+    
