@@ -78,4 +78,5 @@ if (tempoFinal > 0){
         } else {
         return [0,0,0,0];
         }
-    
+        let dias = Math.floor(horas / 24);
+       
