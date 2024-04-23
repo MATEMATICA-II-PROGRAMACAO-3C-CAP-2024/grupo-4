@@ -6,12 +6,12 @@
     --azul: #3c30ee;
     --botao-ativo: #ff30ba;
     --botao-inativo: rgba(52, 34, 246, 0.692);
-    --texto-fundo: rgba(28, 12, 199, 0.825);
+    --texto-fundo: rgba(241, 45, 198, 0.825);
 }
 
 body {
     background-color: var(--cor-de-fundo:#0000ff);
-    color: var(--azul);
+    color: var(--cinza);
     font-family: 'Chakra Petch', sans-serif;
 }
 
