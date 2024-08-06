@@ -7,20 +7,8 @@ scale=1.0”>
 <title>Document</title>
 <link rel=”stylesheet” href=”style.css”>
 </head>
-<body>
-    <img src=”” alt=”cadeado fechado”>
-<h2 class=”titulo-principal”>Gerador de senhas</h2>
-<h3 class=”titulo-secundario”>Gere instantaneamente uma senha
-aleatória e segura</h3>
-</body>
-<div class=”conteudo-titulo”>
-
-    <img src=”unlock.svg” alt=”cadeado fechado”>
-    <h2 class=”titulo-principal”>Gerador de senhas</h2>
-    <h3 class=”titulo-secundario”>Gere instantaneamente uma senha aleatória e segura</h3>
-    </div>
     <body>
-        <section class=”conteudo”>
+        <section class="conteudo">
         <div class=”conteudo-titulo”>
         <img src=”unlock.svg” alt=”cadeado fechado”>
         <h2 class=”titulo-principal”>Gerador de senhas</h2>
@@ -28,26 +16,48 @@ aleatória e segura</h3>
          </div>
     <div class=”conteudo-senha”>
         <label for=”senha”>Senha</label>
-<input name=”senha” type=”text” id=”campo-senha”>
+        <input name=”senha” type=”text” id=”campo-senha”>
         </div>
-</section>
+    </section>
+    </body>
 </body>
 <div class=”parametro”>
     <h3 class=”parametro-titulo”>Personalize sua senha</h3>
-    <div class=”parametro-coluna__senha”>
-        <div class=”parametro-senha”>
-        <h4 class=”parametro-senha__titulo”>Número de caracteres</h4>
+    <div class="parametro-coluna_senha">
+        <div class="parametro-senha">
+        <h4 class="parametro-senha_titulo">Número de caracteres</h4>
+        </div>   
+    <div class="parametro-senha">
+        <h4 class="parametro-senha_titulo">Características da senha</h4>
+    </div>
+<div class="parametro-senha>
+    <h4 class="parametro-senha_titulo">força da senha</h4>
+</div>
         <div class=”parametro-senha-botoes”></div>
-        <button>-</button>
-        <p>12</p>
-        <button>+</button>
-        </div>
-        </div>
-        <div class=”parametro-senha”>
+        <button class="parametro-senha_botao">-</button>
+        <p class="parametro-senha_texto">12</p>
+        <button class="parametro-senha_parametro">+</button>
+    </div>
+</div>
+    <div class=”parametro-senha”>
+    </div>
         <h4 class=”parametro-senha__titulo”>Características da senha</h4>
+         <div class=”parametro-senha-checkbox”>
+        <input name=”maiusculo” type=”checkbox”>
+        <label for=”maiusculo”>Letras maiúsculas</label>
         </div>
-        <div class=”parametro-senha”>
-        <h4 class=”parametro-senha__titulo”>Força da senha</h4>
+        <div class=”parametro-senha-checkbox”>
+        <input name=”minusculo” type=”checkbox”>
+        <label for=”minusculo”>Letras minúsculas</label>
         </div>
+        <div class=”parametro-senha-checkbox”>
+        <input name=”numero” type=”checkbox”>
+        <label for=”numero”>Números</label>
         </div>
+        <div class=”parametro-senha-checkbox”>
+        <input name=”simbolo” type=”checkbox”>
+        <label for=”simbolo”>Símbolos</label>
+        </div>
+         </div>
+
 </html>
